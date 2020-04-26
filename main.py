@@ -13,4 +13,6 @@ start_time = time.time()
 solver = Solver(mixed);
 solution = solver.solve();
 print (solution);
+sol_count = len(solution)
+print ("number of moves: ", sol_count)
 print ("--- %.6s seconds ---" % (time.time() - start_time));
